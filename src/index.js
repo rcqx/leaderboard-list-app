@@ -31,13 +31,13 @@ const entries = [
   },
 ];
 
-function display() {
+const display = () => {
   for (let i = 0; i < entries.length; i += 1) {
     const entry = document.createElement('li');
     entry.innerHTML = `${entries[i].name}: ${entries[i].score}`;
     const cont = document.querySelector('ul');
     cont.appendChild(entry);
   }
-}
+};
 
 display();
