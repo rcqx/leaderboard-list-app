@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { LicenseWebpackPlugin } = require('license-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -7,7 +8,9 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Leaderboard Web App',
+      template: './src/index.html',
     }),
+    new LicenseWebpackPlugin(),
   ],
   output: {
     filename: 'bundle.js',

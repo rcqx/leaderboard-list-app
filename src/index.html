@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Leaderboards</title>
-<script defer src="bundle.js"></script></head>
+</head>
 
 <body>
   <h1>Leaderboard</h1>
@@ -24,9 +24,11 @@
     </div>
     <div class="addScore">
       <h2>Add your score</h2>
-      <input type="text" placeholder="Your name">
-      <input type="text" placeholder="Your score">
-      <button>Submit</button>
+      <div class="inputCont">
+        <input class="userInput" type="text" placeholder="Your name">
+        <input class="userInput" type="text" placeholder="Your score">
+        <button>Submit</button>
+      </div>
     </div>
   </div>
   <script src="bundle.js"></script>

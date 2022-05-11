@@ -28,6 +28,7 @@
     "webpack-dev-server": "^4.9.0"
   },
   "dependencies": {
+    "license-webpack-plugin": "^4.0.2",
     "lodash": "^4.17.21"
   }
 }

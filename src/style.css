@@ -1,7 +1,84 @@
-.hello {
-  color: red;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-body {
-  background-color: goldenrod;
+h1 {
+  font-size: 4.5em;
+  padding-left: 0.5em;
+}
+
+h2 {
+  font-size: 3.5em;
+}
+
+
+button {
+  box-shadow: 6px 3px 0 black;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: white;
+}
+
+.userInput {
+  display: flex;
+  gap: 0.5em;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  width: 85%;
+  height: 20px;
+  margin-bottom: 2em;
+}
+
+.mainWrap {
+  display: flex;
+  border: 2px solid red;
+  align-items: center;
+}
+
+.recentScores {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50%;
+  padding-right: 2em;
+}
+
+.scoresTitle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.scoresTitle h2 {
+  margin-right: 2em;
+}
+
+#scores {
+  border: 2px solid black;
+  width: 85%;
+  height: 400px;
+}
+
+.addScore {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 14em;
+}
+
+.inputCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50%;
 }
