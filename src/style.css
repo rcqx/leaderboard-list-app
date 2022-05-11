@@ -9,8 +9,15 @@ h1 {
 
 h2 {
   font-size: 3.5em;
+  margin: 0%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
+input::placeholder {
+  font-size: 1.5em;
+  line-height: 3;
+}
 
 button {
   box-shadow: 6px 3px 0 black;
@@ -21,6 +28,7 @@ button {
   font-size: 1.1em;
   font-weight: bold;
   background-color: white;
+  font-size: 1.2em;
 }
 
 .userInput {
@@ -29,19 +37,19 @@ button {
   flex-direction: column;
   align-items: center;
   padding: 1em;
-  width: 85%;
+  width: 90%;
   height: 20px;
   margin-bottom: 2em;
+  border: 4px solid black;
 }
 
 .mainWrap {
   display: flex;
-  border: 2px solid red;
   align-items: center;
+  min-width: 678px;
 }
 
 .recentScores {
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -51,34 +59,34 @@ button {
 
 .scoresTitle {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 85%;
 }
 
 .scoresTitle h2 {
-  margin-right: 2em;
+  width: 70%;
 }
 
 #scores {
   border: 2px solid black;
   width: 85%;
   height: 400px;
+  border: 5px solid black;
 }
 
 .addScore {
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 14em;
+  margin-bottom: 13em;
 }
 
 .inputCont {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: 50%;
+  width: 60%;
 }
