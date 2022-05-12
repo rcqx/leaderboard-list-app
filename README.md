@@ -2,7 +2,7 @@
 
 ![leaderboard](./rd.png)
 
-A leaderboard list application bundled with webpack and ES6 compliant. 
+>A leaderboard list application bundled with webpack and ES6 compliant that stores, fetch and display data from custom API
 
 * Use callbacks and promises.
 * Learn how to use proper ES6 syntax.
