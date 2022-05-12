@@ -1,5 +1,7 @@
 # Leaderboard: hit the API 🎯!
 
+![leaderboard](./leaderboard.png)
+
 A leaderboard list application bundled with webpack and ES6 compliant. 
 
 * Use callbacks and promises.
