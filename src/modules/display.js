@@ -10,12 +10,12 @@ const display = () => {
     const array = content.result;
     array.sort((a, b) => b.score - a.score);
     const ul = document.querySelector('ul');
-    for (let i = 0; i < array.length; i += 1) {
+    array.forEach((element, i) => {
       const item = document.createElement('li');
-      item.id = `item${i}`;
-      item.innerHTML = `${array[i].user}: ${array[i].score}`;
+      item.id = `item${i + 1}`;
+      item.innerHTML = `${element.user}: ${element.score}`;
       ul.appendChild(item);
-    }
+    })
   })();
 };
 
