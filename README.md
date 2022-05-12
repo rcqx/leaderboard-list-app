@@ -1,4 +1,4 @@
-# Leaderboard: hit the API 🎯!
+# Leaderboard: Final touches 🎨!
 
 ![leaderboard](./leaderboard.png)
 
