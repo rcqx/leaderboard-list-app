@@ -1,4 +1,4 @@
-# Leaderboard: setup project 🛠️!
+# Leaderboard: hit the API 🎯!
 
 A leaderboard list application bundled with webpack and ES6 compliant. 
 
