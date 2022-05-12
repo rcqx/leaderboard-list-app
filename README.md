@@ -1,6 +1,6 @@
 # Leaderboard: Final touches 🎨!
 
-![leaderboard](./leaderboard.png)
+![leaderboard](./rd.png)
 
 A leaderboard list application bundled with webpack and ES6 compliant. 
 
