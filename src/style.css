@@ -1,10 +1,13 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-image: url('./img/background.jpg');
 }
 
 h1 {
   font-size: 4.5em;
   padding-left: 0.5em;
+  color: black;
+  -webkit-text-stroke: 2px red;
 }
 
 h2 {
@@ -12,6 +15,8 @@ h2 {
   margin: 0%;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  color: black;
+  -webkit-text-stroke: 1px red;
 }
 
 input::placeholder {
@@ -44,8 +49,9 @@ button {
   padding-top: 0.3em;
   padding-bottom: 0.3em;
   font-weight: bold;
-  background-color: white;
-  font-size: 1.2em;
+  background-color: black;
+  font-size: 1.3em;
+  color: red;
 }
 
 .userInput {
@@ -57,7 +63,11 @@ button {
   width: 100%;
   height: 20px;
   margin-bottom: 2em;
-  border: 4px solid black;
+  border: 5px solid red;
+}
+
+.userInput:focus {
+  border: 5px solid black;
 }
 
 .mainWrap {
@@ -88,10 +98,11 @@ button {
 #scores {
   width: 85%;
   height: 400px;
-  border: 5px solid black;
+  border: 10px solid red;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background-color: white;
 }
 
 .addScore {
